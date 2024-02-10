@@ -71,6 +71,7 @@ public class CalculatorService {
 	}
 	
 	public void dietPlan(int calories) {
+		System.out.println("###");
 		System.out.println("*******");
 		System.out.println("Your maintainance calories are "+ calories +" calories"+"\n" +
 				"If you want to lose 0.25kg/week consume "+ (calories-250)+" calories"+"\n" +
@@ -80,6 +81,7 @@ public class CalculatorService {
 				"If you want to gain 0.50kg/week consume "+ (calories+500)+" calories"+ "\n" +
 				"If you want to gain 0.75kg/week consume "+ (calories+750)+ " calories");
 		System.out.println("*******");
+		System.out.println("###");
 	}
 
 }
