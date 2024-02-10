@@ -82,6 +82,7 @@ public class CalculatorService {
 				"If you want to gain 0.75kg/week consume "+ (calories+750)+ " calories");
 		System.out.println("*******");
 		System.out.println("###");
+		System.out.println("nice");
 	}
 
 }
